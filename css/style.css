@@ -1,0 +1,29 @@
+body{
+    background-image: url(../images/fond_principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.information{
+    max-width: fit-content;
+}
+ h1{
+     color: rgb(223, 156, 74);
+     text-shadow: 6px 6px 6px black , 2px 1px 0 black;
+ }
+
+.bouton {
+    border-right: 4px ridge white;
+    border-bottom: 4px ridge white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    box-shadow: 2px 1px 2px black;
+}
+.block-info{
+    background-color: rgba(255, 255, 255, 0.5) ; 
+    margin-bottom: 2rem;  
+}
