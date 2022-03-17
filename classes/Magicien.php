@@ -15,6 +15,7 @@ class Magicien extends Personnage
             $this->atout = 0;
         }
         
+        //comparaison
         if ($persoAEndormir->id == $this->id) {
             return self::DETECT_ME;
         }
