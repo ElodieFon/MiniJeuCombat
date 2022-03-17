@@ -28,7 +28,7 @@ class Magicien extends Personnage
             return self::PERSO_dore;
         }
         
-        $persoAEndormir->dodo = time() + ($this->atout * 6) * 3600;
+        $persoAEndormir->dodo = time() + ($this->atout * 6) *900;
         
         return self::PERSO_ENDORMI;
     }
