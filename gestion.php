@@ -20,7 +20,7 @@ if (isset($_GET['deconnexion']))
 if (isset($_SESSION['perso'])) {
     $perso = $_SESSION['perso'];
 }
-
+// instance pdo de la bdd
 $bdd = new PDO('mysql:host=localhost;dbname=minijeucombat', 'root', '');
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 

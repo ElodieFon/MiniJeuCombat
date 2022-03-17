@@ -1,4 +1,5 @@
 <?php
+
 class Magicien extends Personnage 
 {
     public function Endormir(Personnage $persoAEndormir) 
@@ -32,4 +33,12 @@ class Magicien extends Personnage
         
         return self::PERSO_ENDORMI;
     }
+   
+    //TODO finir la fonction de clonage d'objet
+    // function __clone()
+    // {
+    //     // Force la copie de personnageacloner, pour éviter qu'il pointe ver le meme objet
+    
+    //     $this->personnageacloner = clone $this->personageacloner;
+    // }
 }
