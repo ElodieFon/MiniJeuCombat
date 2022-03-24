@@ -155,7 +155,7 @@ abstract class Personnage {
      
      public function setDegats($degats) {
          $degats = (int)$degats; // Conversion de l'argument en nombre entier
-         // Vérification - Le nombre doit être strictemeznt positif et compris entre 0 et 100
+         // Vérification - Le nombre doit être positif et compris entre 0 et 100
          if ($degats >= 0 && $degats <= 100) {
              $this->degats = $degats; // on assigne alors la valeur $degats à l'attribut _degats
          }
